@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Webpage</title>
+  <style>
+    /* CSS for making the webpage responsive */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+    }
+    @media only screen and (max-width: 600px) {
+      .container {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="384354085_1052849972375082_4074262831560725909_n.jpg" alt="Sample Image">
+  </div>
+</body>
+</html>
